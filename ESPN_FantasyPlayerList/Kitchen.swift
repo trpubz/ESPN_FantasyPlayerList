@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftSoup
-import SwiftJSONFormatter
 import SwiftyJSON
 
 struct SoupStew {
@@ -49,7 +48,7 @@ struct SoupStew {
                 }
                 
                 // determines which table the loop is currently in
-                var playerPostion: String = determinePositionTable(posTable: posTable) ?? "No Position"
+                let playerPostion: String = determinePositionTable(posTable: posTable) ?? "No Position"
                 
                 let tRows: Elements = try posTable.select("tbody > tr")
                 for row in tRows.array() {
@@ -58,15 +57,18 @@ struct SoupStew {
                     // player id is found in the hyperlink; .slice is a String extension
                     let id = try player.attr("href").slice(from: "id/", to: "/")!
                     // if the player already exists in the players array then continue onto the next row
-                    if players.contains(where: {$0.id == id}) {
+                    if players.contains(where: {$0.idESPN == id}) {
                         continue
                         
                     }
                     let strName = try player.text()
+                    // sometimes rows are blank and need to be guarded against
+                    if strName.isEmpty {
+                        continue }
                     // player team is 4th column/3rd index
                     let tm = try row.child(colTm).text()
                     // player position is the 5th column/4th index
-                    var otherPositions: String = try row.child(colOtherPos).text()
+                    var otherPositions: String = try row.child(colOtherPos).text().trimmingCharacters(in: .whitespaces)
                     if otherPositions != "" {
                         otherPositions = "/\(otherPositions)"
                     }

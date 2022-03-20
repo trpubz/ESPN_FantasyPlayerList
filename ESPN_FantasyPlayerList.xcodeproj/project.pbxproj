@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253E3FE727E7A8C400FF732F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253E3FE627E7A8C400FF732F /* Player.swift */; };
 		2541B29E27CACAE90067F05D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2541B29D27CACAE90067F05D /* main.swift */; };
 		2541B2AA27CAD2BA0067F05D /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 2541B2A927CAD2BA0067F05D /* SwiftSoup */; };
 		2541B2AC27CAD33A0067F05D /* Kitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2541B2AB27CAD33A0067F05D /* Kitchen.swift */; };
 		254E758027D193BC00FB9005 /* ImportExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E757F27D193BC00FB9005 /* ImportExport.swift */; };
 		254E758327D2FF7600FB9005 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 254E758227D2FF7600FB9005 /* SwiftyJSON */; };
 		B34A708927D075A8003CD5D1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A708827D075A8003CD5D1 /* Extensions.swift */; };
-		B34A708B27D07B82003CD5D1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A708A27D07B82003CD5D1 /* Player.swift */; };
 		B34A708E27D08782003CD5D1 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34A708D27D08782003CD5D1 /* Encoder.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,13 +30,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2541B29A27CACAE90067F05D /* SoupKitchen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoupKitchen; sourceTree = BUILT_PRODUCTS_DIR; };
+		253E3FE627E7A8C400FF732F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		253E3FE827E7B7CB00FF732F /* h2hPlayerList.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = h2hPlayerList.html; sourceTree = "<group>"; };
+		2541B29A27CACAE90067F05D /* ESPN_FantasyPlayerList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ESPN_FantasyPlayerList; sourceTree = BUILT_PRODUCTS_DIR; };
 		2541B29D27CACAE90067F05D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2541B2A727CAD2490067F05D /* h2hArticle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = h2hArticle.html; sourceTree = "<group>"; };
 		2541B2AB27CAD33A0067F05D /* Kitchen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kitchen.swift; sourceTree = "<group>"; };
 		254E757F27D193BC00FB9005 /* ImportExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExport.swift; sourceTree = "<group>"; };
 		B34A708827D075A8003CD5D1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		B34A708A27D07B82003CD5D1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Player.swift; path = SoupKitchen/Player.swift; sourceTree = SOURCE_ROOT; };
 		B34A708D27D08782003CD5D1 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,7 @@
 		2541B29127CACAE80067F05D = {
 			isa = PBXGroup;
 			children = (
-				2541B29C27CACAE90067F05D /* SoupKitchen */,
+				2541B29C27CACAE90067F05D /* ESPN_FantasyPlayerList */,
 				2541B29B27CACAE90067F05D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,28 +64,28 @@
 		2541B29B27CACAE90067F05D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2541B29A27CACAE90067F05D /* SoupKitchen */,
+				2541B29A27CACAE90067F05D /* ESPN_FantasyPlayerList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2541B29C27CACAE90067F05D /* SoupKitchen */ = {
+		2541B29C27CACAE90067F05D /* ESPN_FantasyPlayerList */ = {
 			isa = PBXGroup;
 			children = (
 				2541B29D27CACAE90067F05D /* main.swift */,
 				2541B2AB27CAD33A0067F05D /* Kitchen.swift */,
 				254E757F27D193BC00FB9005 /* ImportExport.swift */,
-				B34A708A27D07B82003CD5D1 /* Player.swift */,
+				253E3FE627E7A8C400FF732F /* Player.swift */,
 				B34A708C27D0875A003CD5D1 /* Helpers */,
 				2541B2AD27CAD45F0067F05D /* Resources */,
 			);
-			path = SoupKitchen;
+			path = ESPN_FantasyPlayerList;
 			sourceTree = "<group>";
 		};
 		2541B2AD27CAD45F0067F05D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2541B2A727CAD2490067F05D /* h2hArticle.html */,
+				253E3FE827E7B7CB00FF732F /* h2hPlayerList.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2541B29927CACAE90067F05D /* SoupKitchen */ = {
+		2541B29927CACAE90067F05D /* ESPN_FantasyPlayerList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2541B2A127CACAE90067F05D /* Build configuration list for PBXNativeTarget "SoupKitchen" */;
+			buildConfigurationList = 2541B2A127CACAE90067F05D /* Build configuration list for PBXNativeTarget "ESPN_FantasyPlayerList" */;
 			buildPhases = (
 				2541B29627CACAE90067F05D /* Sources */,
 				2541B29727CACAE90067F05D /* Frameworks */,
@@ -114,13 +114,13 @@
 			);
 			dependencies = (
 			);
-			name = SoupKitchen;
+			name = ESPN_FantasyPlayerList;
 			packageProductDependencies = (
 				2541B2A927CAD2BA0067F05D /* SwiftSoup */,
 				254E758227D2FF7600FB9005 /* SwiftyJSON */,
 			);
 			productName = SoupKitchen;
-			productReference = 2541B29A27CACAE90067F05D /* SoupKitchen */;
+			productReference = 2541B29A27CACAE90067F05D /* ESPN_FantasyPlayerList */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -131,14 +131,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					2541B29927CACAE90067F05D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 2541B29527CACAE90067F05D /* Build configuration list for PBXProject "SoupKitchen" */;
+			buildConfigurationList = 2541B29527CACAE90067F05D /* Build configuration list for PBXProject "ESPN_FantasyPlayerList" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2541B29927CACAE90067F05D /* SoupKitchen */,
+				2541B29927CACAE90067F05D /* ESPN_FantasyPlayerList */,
 			);
 		};
 /* End PBXProject section */
@@ -166,10 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				254E758027D193BC00FB9005 /* ImportExport.swift in Sources */,
-				B34A708B27D07B82003CD5D1 /* Player.swift in Sources */,
 				2541B2AC27CAD33A0067F05D /* Kitchen.swift in Sources */,
 				B34A708E27D08782003CD5D1 /* Encoder.swift in Sources */,
 				2541B29E27CACAE90067F05D /* main.swift in Sources */,
+				253E3FE727E7A8C400FF732F /* Player.swift in Sources */,
 				B34A708927D075A8003CD5D1 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +295,7 @@
 		2541B2A227CACAE90067F05D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AJ5NZESYF;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -306,6 +307,7 @@
 		2541B2A327CACAE90067F05D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5AJ5NZESYF;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -317,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2541B29527CACAE90067F05D /* Build configuration list for PBXProject "SoupKitchen" */ = {
+		2541B29527CACAE90067F05D /* Build configuration list for PBXProject "ESPN_FantasyPlayerList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2541B29F27CACAE90067F05D /* Debug */,
@@ -326,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2541B2A127CACAE90067F05D /* Build configuration list for PBXNativeTarget "SoupKitchen" */ = {
+		2541B2A127CACAE90067F05D /* Build configuration list for PBXNativeTarget "ESPN_FantasyPlayerList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2541B2A227CACAE90067F05D /* Debug */,
