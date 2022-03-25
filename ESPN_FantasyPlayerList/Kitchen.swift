@@ -80,11 +80,7 @@ struct SoupStew {
                     print(plyr)
                 }
             }
-        } catch Exception.Error(type: let type,
-                                Message: let message) {
-            print(type)
-            print(message)
-        } catch { print("ERROR") }
+        } catch { print("ERROR while making stew \(error)") }
         
         let encoder = JSONEncoder()
         // setting encoder properties; unsure how .sortedKeys works
