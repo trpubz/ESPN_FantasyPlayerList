@@ -100,7 +100,10 @@ struct SoupStew {
 extension SoupStew {
     func determinePositionTable(posTable: Element) -> String? {
         do {
-            let posGroup: String = try posTable.select("h2").text()
+            var posGroup: String = try posTable.select("h2").text()
+            if posGroup == "" {
+                posGroup = try posTable.select("h1").text()
+            }
             if posGroup.contains("Catchers") {
                 return "C"
             } else if posGroup.contains("First Basemen") {
