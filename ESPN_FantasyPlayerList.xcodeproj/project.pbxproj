@@ -31,11 +31,11 @@
 
 /* Begin PBXFileReference section */
 		253E3FE627E7A8C400FF732F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		253E3FE827E7B7CB00FF732F /* h2hPlayerList.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = h2hPlayerList.html; sourceTree = "<group>"; };
 		2541B29A27CACAE90067F05D /* ESPN_FantasyPlayerList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ESPN_FantasyPlayerList; sourceTree = BUILT_PRODUCTS_DIR; };
 		2541B29D27CACAE90067F05D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2541B2AB27CAD33A0067F05D /* Kitchen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kitchen.swift; sourceTree = "<group>"; };
 		254E757F27D193BC00FB9005 /* ImportExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportExport.swift; sourceTree = "<group>"; };
+		25AC51022803EB1D00FE0EC6 /* h2hPlayerList.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = h2hPlayerList.html; sourceTree = "<group>"; };
 		B34A708827D075A8003CD5D1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B34A708D27D08782003CD5D1 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		2541B2AD27CAD45F0067F05D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				253E3FE827E7B7CB00FF732F /* h2hPlayerList.html */,
+				25AC51022803EB1D00FE0EC6 /* h2hPlayerList.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
