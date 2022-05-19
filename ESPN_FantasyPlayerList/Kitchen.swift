@@ -77,7 +77,7 @@ struct SoupStew {
                                               tm: tm,
                                               pos: playerPostion + otherPositions)
                     players.append(plyr)
-                    print(plyr)
+//                    print(plyr)
                 }
             }
         } catch { print("ERROR while making stew \(error)") }

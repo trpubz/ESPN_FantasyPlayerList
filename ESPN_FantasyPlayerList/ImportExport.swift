@@ -8,7 +8,7 @@
 import Foundation
 
 struct IOModule {
-    let sharedLocation: URL = URL(fileURLWithPath: "/Users/Shared/Baseball HQ")
+    let sharedLocation: URL = URL(fileURLWithPath: "/Users/Shared/BaseballHQ")
 }
 
 extension IOModule {
