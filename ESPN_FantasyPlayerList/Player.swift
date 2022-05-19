@@ -10,7 +10,7 @@ import Foundation
 struct Player: Codable {
     let idESPN: String
     var idFangraphs: String = ""
-    let name: String
+    let _name: String
     var firstName: String? = nil
     var lastName: String? = nil
     var suffix: String? = nil
@@ -19,7 +19,7 @@ struct Player: Codable {
     
     init(id: String, name: String, tm: String, pos: String) {
         self.idESPN = id
-        self.name = name
+        self._name = name
         self.tm = tm
         self.pos = pos
         // guarding against html errors

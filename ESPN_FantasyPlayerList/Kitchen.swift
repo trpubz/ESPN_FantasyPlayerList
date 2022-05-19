@@ -1,6 +1,5 @@
-//
 //  Kitchen.swift
-//  SoupKitchen
+//  File contains the objects and logic to
 //
 //  Created by Taylor Pubins on 2/26/22.
 //
@@ -83,7 +82,7 @@ struct SoupStew {
         } catch { print("ERROR while making stew \(error)") }
         
         let encoder = JSONEncoder()
-        // setting encoder properties; unsure how .sortedKeys works
+        // setting encoder properties
         encoder.outputFormatting = [.prettyPrinted, .sortedKeys, .withoutEscapingSlashes]
         do {
             let encodedData = try encoder.encode(players)
