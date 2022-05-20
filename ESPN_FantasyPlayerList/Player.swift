@@ -8,9 +8,9 @@
 import Foundation
 
 struct Player: Codable {
+    let _name: String
     let idESPN: String
     var idFangraphs: String = ""
-    let _name: String
     var firstName: String? = nil
     var lastName: String? = nil
     var suffix: String? = nil

@@ -7,7 +7,8 @@
 
 import Foundation
 
-let soup = SoupStew()
-
+var soup = SoupStew()
+soup.makeStew()
+print(String(data: soup.jsonData, encoding: .utf8) ?? "brokey-broke whalburg")
 
 

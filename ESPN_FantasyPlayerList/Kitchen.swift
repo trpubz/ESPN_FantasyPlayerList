@@ -1,5 +1,5 @@
 //  Kitchen.swift
-//  File contains the objects and logic to
+//  File contains the objects and logic to scrape locally saved HTML file and create Player objects.
 //
 //  Created by Taylor Pubins on 2/26/22.
 //
@@ -13,8 +13,6 @@ struct SoupStew {
     var players: [Player] = []
     
     init () {
-        makeStew()
-        print(String(data: jsonData, encoding: .utf8) ?? "brokey-broke whalburg")
     }
     
     mutating func makeStew() {
