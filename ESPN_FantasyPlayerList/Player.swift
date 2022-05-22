@@ -38,9 +38,7 @@ struct Player: Codable {
                     // Drop the last name from the name components
                     self.firstName = self._name.components(separatedBy: " " + self.lastName!)[0]
                 }
-                
             }
         }
-        
     }
 }
