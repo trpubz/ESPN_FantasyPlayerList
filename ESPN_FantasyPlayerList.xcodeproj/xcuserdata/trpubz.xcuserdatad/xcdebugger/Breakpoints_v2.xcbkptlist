@@ -309,5 +309,23 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E36CC49D-1FC6-4B7E-9B29-7EA668255B8E"
+            shouldBeEnabled = "No"
+            nameForDebugger = "hjr"
+            condition = "name == &quot;Hyun Jin Ryu&quot;"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ESPN_FantasyPlayerList/Player.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init(id:name:tm:pos:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

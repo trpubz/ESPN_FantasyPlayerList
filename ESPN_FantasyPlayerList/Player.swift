@@ -28,7 +28,17 @@ struct Player: Codable {
             self.firstName = compsName[0]
             self.lastName = compsName[1]
             if compsName.endIndex > 2 {
-                self.suffix = compsName[2]
+                // Hyun Jin Ryu is an
+                if compsName[2] == "Jr." || compsName[2] == "Sr." {
+                    self.suffix = compsName[2]
+                } else {
+                    // Hyun Jin Ryu if not conditioned will produced Ryu as a suffix and Jin as the last name
+                    // Take the last index as the last name
+                    self.lastName = compsName[compsName.endIndex - 1]
+                    // Drop the last name from the name components
+                    self.firstName = self._name.components(separatedBy: " " + self.lastName!)[0]
+                }
+                
             }
         }
         
